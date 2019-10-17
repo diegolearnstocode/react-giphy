@@ -1,18 +1,13 @@
-import React from 'react';
+// External dependencies
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-
+// Stylesheets
 import '../assets/stylesheets/application.scss';
-
-const Hello = ({ name }) => {
-  return (
-    <div>
-      Hello,
-      {name}
-    </div>
-  );
-};
+// Components and internal dependencies
+import App from './components/app';
 
 const root = document.getElementById('root');
 if (root) {
-  ReactDOM.render(<Hello name="World" />, root);
+  ReactDOM.render(<App />,
+    root);
 }
