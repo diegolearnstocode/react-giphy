@@ -7,9 +7,8 @@ import '../assets/stylesheets/application.scss';
 class Hello extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
-      clicked: true
+      clicked: true,
     };
   }
 
